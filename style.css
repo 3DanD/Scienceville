@@ -1,0 +1,57 @@
+/* Сбрасываем отступы по умолчанию */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Основная структура страницы */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+/* Контейнер с контентом (центрируем, ограничиваем ширину и даём отступы) */
+main {
+  flex: 1;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+/* Заголовки и ссылки */
+h1, h2 {
+  color: #0055aa;
+  margin-top: 0; /* убираем лишний верхний отступ */
+}
+
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Футер прижат к низу */
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  width: 100%;
+  line-height: 0.8;
+}
