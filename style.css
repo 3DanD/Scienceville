@@ -33,6 +33,7 @@ main {
 h1, h2 {
   color: #0055aa;
   margin-top: 0; /* убираем лишний верхний отступ */
+  line-height: 1.1;
 }
 
 a {
@@ -53,5 +54,5 @@ footer {
   border-top: 1px solid #ddd;
   background-color: #fff;
   width: 100%;
-  line-height: 0.8;
+  line-height: 1;
 }
